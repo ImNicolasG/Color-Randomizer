@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: darkgray;
+    padding: 0em 3em 0em 3em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+ul {
+    display: flex;
+    float: right;
+    justify-content:center;
+    align-items: center;
+    gap: 2em;
+    list-style: none;
+}
