@@ -1,5 +1,6 @@
 const colors = ["green", "red", "blue", "white", "black", "pink", "orange", "purple",
- "teal", "cyan", "beige", "aqua", "brown", "grey", "maroon"];
+ "teal", "cyan", "beige", "aqua", "brown", "grey", "maroon", "blueviolet", "coral", 
+ "violet", "crimson", "darkblue", "darkgreen", "darkred", "darkcyan"];
 
 const btn = document.getElementById("btn");
 const color = document.querySelector(".color");
@@ -16,3 +17,16 @@ btn.addEventListener("click", function(){
 function getRandomNumber() {
     return Math.floor(Math.random() *  colors.length);
 }
+
+
+function copyMyText() {
+    //get text field
+    const colorText = document.getElementById("colorText").innerHTML;
+
+    // copy text 
+    navigator.clipboard.writeText(colorText);
+
+    // alert
+    alert("Copied")
+
+};

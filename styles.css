@@ -8,11 +8,22 @@ body {
     flex-direction: row;
     justify-content: space-between;
     background-color: darkgray;
-    padding: 0em 3em 0em 3em;
+    padding: 0em 5em 0em 5em;
+    border-bottom: 2px solid black;
+}
+
+h2 {
+    color: white;
+    text-shadow: -1px 0 1px black, 0 1px 1px black, 1px 0 1px black, 0 -1px 1px black;
+    font-size: 2.5em;
+    padding-bottom: 2em;
 }
 
 h3 {
+    color: white;
+    text-shadow: 2px 2px 4px black;
     font-size: 2em;
+
 }
 
 ul {
@@ -23,3 +34,32 @@ ul {
     gap: 2em;
     list-style: none;
 }
+
+li {
+    text-decoration: none;
+}
+
+li a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+    
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 7em;
+}
+
+.main-btn {
+    font-size: 1.5em;
+    border: 1px solid black;
+    width: 10em;
+    height: 3em;
+    border-radius: 10px;
+}
+

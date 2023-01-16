@@ -17,3 +17,16 @@ btn.addEventListener("click", function(){
 function getRandomNumber() {
     return Math.floor(Math.random() * hex.length);
 };
+
+
+function copyMyText() {
+    //get text field
+    const colorText = document.getElementById("colorText").innerHTML;
+
+    // copy text 
+    navigator.clipboard.writeText(colorText);
+
+    // alert
+    alert("Copied")
+
+};
